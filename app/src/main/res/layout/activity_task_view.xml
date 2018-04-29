@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="3dp">
+
+    <TextView
+        android:id="@+id/idvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+    <TextView
+        android:id="@+id/taskdateheading"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textStyle="bold"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="center"
+        android:text="Time" />
+
+    <TextView
+        android:id="@+id/tasktitle"
+        android:layout_below="@id/taskdateheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Task"
+        android:paddingLeft="10dp" />
+
+    <TextView
+        android:id="@+id/taskdetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tasktitle"
+        android:text="Description"
+        android:textSize="15sp"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/taskdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/taskdetails"
+        android:text="Time"
+        android:textSize="15sp"
+        android:paddingLeft="10dp"/>
+
+    <ImageView
+        android:id="@+id/taskstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/incomplete" />
+</RelativeLayout>

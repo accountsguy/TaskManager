@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Add"
+        android:id="@+id/add_menu"
+        android:icon="@drawable/add_new_task"
+        app:showAsAction="always"
+        />
+    <item android:title="CompletedTask"
+        android:id="@+id/completed_menu"
+        android:icon="@drawable/complete"
+        android:tooltipText="Completed Task List"
+        app:showAsAction="always"/>
+    <item android:title="IncompletedTask"
+        android:id="@+id/incompleted_menu"
+        android:icon="@drawable/incomplete"
+        android:tooltipText="Incompleted Task List"
+        app:showAsAction="always"/>
+</menu>
